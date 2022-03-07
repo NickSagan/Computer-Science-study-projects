@@ -42,7 +42,7 @@ let proxy = ServerProxy()
 proxy.grantAccess(user: user1)
 proxy.denyAccess(user: user1)
 
-// Defence proxy
+// Protection proxy
 
 class User2 {
     var name: String
